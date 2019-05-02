@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "polymer serve --port 7000"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "latest",
+    "jwt-decode": "^2.2.0",
+    "lit-element": "latest"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.9.9"
+  }
+}
